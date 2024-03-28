@@ -1,0 +1,208 @@
+.tours-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/tour/tours-header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: 48px 0 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+
+  h1 {
+    font-family: "Proxima Nova ScOsf";
+    color: white;
+    letter-spacing: 6px;
+    font-weight: 100;
+    margin: 0;
+    font-size: 60px;
+  }
+}
+
+.tour-page-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/tour/tours-header.jpg");
+  background-size: cover;
+  background-position: 0 0, center;
+  background-repeat: no-repeat;
+
+  margin: 48px 0 48px 0;
+  height: 413px;
+  padding: 30px;
+  position: relative;
+
+  h1 {
+    font-family: "Proxima Nova ScOsf";
+    color: white;
+    letter-spacing: 0px;
+    font-weight: 100;
+    margin: 0;
+    font-size: 80px;
+  }
+  h2 {
+    font-family: "Proxima Nova ScOsf";
+    color: white;
+    letter-spacing: 0px;
+    font-weight: 100;
+    margin: 0;
+    font-size: 30px;
+    position: absolute;
+    right: 3px;
+    bottom: 0;
+  }
+}
+
+.travel-cards {
+  @include travel-card-flexbox();
+  margin: 48px 0 100px 0;
+
+  .card {
+    @include travel-card();
+  }
+
+  .card.israel {
+    @include background-img("../images/tour/tour-01.jpg");
+  }
+  .card.usa {
+    @include background-img("../images/tour/tour-02.jpg");
+  }
+  .card.australia {
+    @include background-img("../images/tour/tour-03.jpg");
+  }
+  .card.newzealand {
+    @include background-img("../images/tour/tour-04.jpg");
+  }
+  .card.france {
+    @include background-img("../images/tour/tour-05.jpg");
+  }
+  .card.egypt {
+    @include background-img("../images/tour/tour-06.jpg");
+  }
+  .card.japan {
+    @include background-img("../images/tour/tour-07.jpg");
+  }
+  .card.canada {
+    @include background-img("../images/tour/tour-08.jpg");
+  }
+  .card.uae {
+    @include background-img("../images/tour/tour-09.jpg");
+  }
+}
+
+.tour-page-hero.israel {
+  @include background-img-with-overlay("../images/tour/tour-01.jpg");
+}
+.tour-page-hero.usa {
+  @include background-img-with-overlay("../images/tour/tour-02.jpg");
+}
+.tour-page-hero.australia {
+  @include background-img-with-overlay("../images/tour/tour-03.jpg");
+}
+.tour-page-hero.newzealand {
+  @include background-img-with-overlay("../images/tour/tour-04.jpg");
+}
+.tour-page-hero.france {
+  @include background-img-with-overlay("../images/tour/tour-05.jpg");
+}
+.tour-page-hero.egypt {
+  @include background-img-with-overlay("../images/tour/tour-06.jpg");
+}
+.tour-page-hero.japan {
+  @include background-img-with-overlay("../images/tour/tour-07.jpg");
+}
+.tour-page-hero.canada {
+  @include background-img-with-overlay("../images/tour/tour-08.jpg");
+}
+.tour-page-hero.uae {
+  @include background-img-with-overlay("../images/tour/tour-09.jpg");
+}
+
+.tour-highlights {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  .highlight {
+    height: 347px;
+    flex: 1;
+    max-width: 298px;
+    background-image: url(/images/about-client-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+// Thanks stack overflow, this will iterate through the children .highlight classes and use their child number inside of their image url. Also I used a $tour variable so I don't have to change both times it is repeated.
+.tour-highlights.israel {
+  @include tour-hightlights("israel");
+}
+.tour-highlights.usa {
+  @include tour-hightlights("usa");
+}
+.tour-highlights.australia {
+  @include tour-hightlights("aus");
+}
+.tour-highlights.newzealand {
+  @include tour-hightlights("nz");
+}
+.tour-highlights.france {
+  @include tour-hightlights("france");
+}
+.tour-highlights.egypt {
+  @include tour-hightlights("egypt");
+}
+.tour-highlights.japan {
+  @include tour-hightlights("japan");
+}
+.tour-highlights.canada {
+  @include tour-hightlights("canada");
+}
+.tour-highlights.uae {
+  @include tour-hightlights("uae");
+}
+
+.tour-schedule {
+  margin-top: 10px;
+  .day-entry {
+    margin-bottom: 80px;
+    h1 {
+      font-family: "Proxima Nova ScOsf";
+      color: black;
+      letter-spacing: 6px;
+      font-weight: 100;
+      margin: 0 0 35px 0;
+      font-size: 60px;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 12px;
+    }
+    p {
+      font-size: 16px;
+      font-family: "Gill Sans", sans-serif;
+    }
+  }
+}
+
+.tour-book-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 80px 0 100px 0;
+  a {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    padding: 11px 22px;
+    background-color: $site-accent;
+    border-radius: 23px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}

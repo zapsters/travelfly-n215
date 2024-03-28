@@ -1,0 +1,44 @@
+footer {
+  height: 100px;
+  background-color: $site-accent;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: $content-width;
+    margin: 0 auto;
+    height: 100%;
+    .logo {
+      width: 92px;
+      height: 42px;
+      background-image: url("../images/logo/logo-white.svg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+    p {
+      font-family: "Gill Sans";
+      font-size: 12px;
+      font-weight: normal;
+      color: $site-white;
+      margin: 0;
+    }
+    .links {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-evenly;
+      gap: 22px;
+      i {
+        color: $site-white;
+        cursor: pointer;
+        font-size: 25px;
+      }
+      i:hover {
+        box-shadow: 0px 5px;
+      }
+    }
+  }
+}

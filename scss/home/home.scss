@@ -1,0 +1,259 @@
+.home {
+  .hero {
+    height: 500px;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center 44%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "GillSans", sans-serif;
+
+    .callout {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      h1 {
+        font-size: 60px;
+        font-family: "Proxima Nova ScOsf";
+        font-weight: 100;
+      }
+      h4 {
+        font-size: 20px;
+        font-family: "Gill Sans", sans-serif;
+        font-style: italic;
+        font-weight: 100;
+        max-width: 420px;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: $site-white;
+        background-color: $site-accent;
+        padding: 11px 20px;
+        font-family: "Gill Sans";
+        font-size: 15px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .travel-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 auto;
+    margin-top: -50px;
+    max-width: $content-width;
+    flex-wrap: nowrap;
+
+    .card {
+      width: 236px;
+      height: 304px;
+      background-image: url("../images/tour/tour-01.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      .details {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        flex-direction: column;
+        font-family: "Proxima Nova ScOsf";
+        position: relative;
+        h1 {
+          font-size: 310%;
+          // font-size: 60px;
+          margin: 0;
+          font-weight: 100;
+        }
+        h2 {
+          // font-size: 30px;
+          font-size: 155%;
+          font-weight: 100;
+          margin: 0;
+        }
+        a {
+          margin-top: 56px;
+          padding: 11px 22px;
+          background-color: $site-accent;
+          border-radius: 23px;
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          font-family: "Gill Sans";
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .card.usa {
+      background-image: url("../images/tour/tour-02.jpg");
+    }
+    .card.austrailia {
+      background-image: url("../images/tour/tour-03.jpg");
+    }
+  }
+
+  form {
+    font-family: "gill sans";
+    width: 90%;
+    max-width: $content-width;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 18px;
+    button {
+      width: 100%;
+      background-color: $site-accent;
+      height: 60px;
+      color: $site-white;
+      font-size: 15;
+      font-family: "Gill Sans";
+      border: none;
+      cursor: pointer;
+      border-radius: 60px;
+      margin-top: 37px;
+      margin-bottom: 100px;
+    }
+    h1 {
+      font-size: 60px;
+      font-family: "Proxima Nova ScOsf";
+      margin-bottom: 28px;
+      font-weight: 100;
+    }
+    input,
+    textarea {
+      border: 2px solid $site-accent;
+      padding: 15px 18px;
+      font-family: "Gill Sans";
+      font-size: 18px;
+      resize: none;
+    }
+    .messageBox {
+      flex: 1;
+      width: 100%;
+      word-wrap: break-word;
+      word-break: break-all;
+      height: 192px;
+    }
+    .senderInfo {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 21px;
+      row-gap: 20px;
+
+      input {
+        flex: 40%;
+      }
+      input:nth-child(2),
+      input:nth-child(4) {
+        flex: 70;
+      }
+    }
+    .check-in-out-details {
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+
+        input[type="date"]::-webkit-inner-spin-button,
+        input[type="date"]::-webkit-calendar-picker-indicator {
+          opacity: 0;
+        }
+
+        label {
+          width: 120px;
+          margin: 0;
+        }
+        input {
+          flex: 3;
+          background-color: $site-white;
+          margin: 0px;
+          height: 58px;
+          text-align: left;
+        }
+        i {
+          position: absolute;
+          right: 20.5px;
+          top: 50%;
+          transform: translateY(-50%);
+          pointer-events: none;
+        }
+      }
+    }
+    .room-details {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      .flex-label-with-input {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          label {
+            width: 120px;
+            margin: 0;
+          }
+          input {
+            flex: 3;
+            background-color: $site-white;
+            margin: 0px;
+            height: 58px;
+            width: 103px;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: $mobile-screen-width) {
+  .home {
+    .travel-cards {
+      flex-direction: column;
+      gap: 50px;
+    }
+    form {
+      .senderInfo {
+        input,
+        input:nth-child(2),
+        input:nth-child(4) {
+          flex: 1;
+        }
+      }
+      .room-details {
+        .flex-label-with-input {
+          div {
+            flex-direction: column;
+            align-items: stretch;
+            input {
+              width: 100%;
+              max-width: 120px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

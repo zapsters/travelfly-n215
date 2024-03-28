@@ -1,0 +1,73 @@
+.about {
+  max-width: $content-width;
+  margin: 0 auto;
+  h1 {
+    font-size: 60px;
+    font-family: "Proxima Nova ScOsf";
+    text-decoration: underline;
+    font-weight: 100;
+    letter-spacing: 6px;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 14px;
+    margin-bottom: 35px;
+    margin-top: 100px;
+  }
+  h2 {
+    font-size: 40px;
+    font-family: "Proxima Nova ScOsf";
+    text-decoration: underline;
+    font-weight: 100;
+    letter-spacing: 4px;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 14px;
+    margin-bottom: 35px;
+    margin-top: 100px;
+  }
+  p {
+    font-family: "Gill Sans";
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .clientQuotes {
+    margin-bottom: 179px;
+    .client-quote-box {
+      display: flex;
+      align-items: center stretch;
+      justify-content: space-evenly;
+      margin-bottom: 37px;
+      gap: 21px;
+      max-width: 676px;
+      .client-img {
+        background-image: url("../images/about-client-01.jpg");
+        width: 260px;
+        flex-shrink: 0;
+        aspect-ratio: 260/150;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .alt-client {
+        background-image: url("../images/about-client-02.jpg");
+      }
+      .client-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        .client-description {
+          font-family: "Gill Sans";
+          font-size: 16px;
+          font-style: italic;
+          margin-bottom: 24px;
+        }
+        .client-name {
+          color: $site-accent;
+          font-size: 20px;
+          font-family: "Proxima Nova ScOsf";
+          margin: 0;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
