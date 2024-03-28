@@ -775,4 +775,121 @@ footer .wrapper .links i:hover {
   margin-left: auto;
 }
 
+.specialoffers {
+  max-width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+.specialoffers h1 {
+  font-size: 30px;
+  font-family: "Proxima Nova ScOsf";
+  text-decoration: underline;
+  font-weight: 100;
+  letter-spacing: 6px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 14px;
+  margin-bottom: 35px;
+  margin-top: 100px;
+}
+.specialoffers h2 {
+  font-size: 40px;
+  font-family: "Proxima Nova ScOsf";
+  text-decoration: underline;
+  font-weight: 100;
+  letter-spacing: 4px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 14px;
+  margin-bottom: 35px;
+  margin-top: 100px;
+}
+.specialoffers p {
+  font-family: "Gill Sans";
+  font-size: 16px;
+  font-weight: normal;
+}
+.specialoffers .specialoffers-showcase {
+  display: flex;
+  align-items: stretch;
+  gap: 60px;
+  margin-bottom: 100px;
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry {
+  min-height: 199px;
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  gap: 20px;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-banner {
+  aspect-ratio: 199/287;
+  max-width: 199px;
+  height: 100%;
+  min-height: 50px;
+  background-image: url("../images/special-offer-01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 1;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content .title {
+  display: flex;
+  justify-content: space-between;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content .title h1 {
+  font-size: 30px;
+  font-family: "Proxima Nova ScOsf";
+  text-decoration: underline;
+  font-weight: 100;
+  letter-spacing: 6px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 14px;
+  margin-bottom: 23px;
+  margin-top: 0px;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content .title p {
+  flex: 1;
+  max-width: none;
+  font-size: 20px;
+  font-family: "Proxima Nova ScOsf";
+  font-weight: 100;
+  margin-top: 12px;
+  color: #ff7d38;
+  margin-bottom: 0;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content p {
+  max-width: 290px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content .btn a {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+  padding: 11px 22px;
+  background-color: #79addc;
+  border-radius: 23px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content .btn a:hover {
+  text-decoration: underline;
+}
+.specialoffers .specialoffers-showcase .specialoffer-entry:nth-child(2) .specialoffer-banner {
+  background-image: url("../images/special-offer-02.jpg");
+}
+
 /*# sourceMappingURL=styles.css.map */
