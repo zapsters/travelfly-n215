@@ -992,7 +992,7 @@ footer .wrapper .links i:hover {
 }
 .contact .contact-flexbox .sidebar .map {
   aspect-ratio: 400/442;
-  background-image: url("/images/maplocation.png");
+  background-image: url("../images/maplocation.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
