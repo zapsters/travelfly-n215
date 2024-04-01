@@ -1,0 +1,96 @@
+.contact {
+  max-width: $content-width;
+  margin: 0 auto;
+  height: 100%;
+  h1 {
+    font-size: 30px;
+    font-family: "Proxima Nova ScOsf Custom";
+    text-decoration: underline;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 14px;
+    margin-bottom: 35px;
+    margin-top: 60px;
+  }
+  h2 {
+    font-size: 40px;
+    font-family: "Proxima Nova ScOsf Custom";
+    text-decoration: underline;
+    font-weight: 100;
+    letter-spacing: 4px;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 14px;
+    margin-bottom: 35px;
+    margin-top: 100px;
+  }
+  p {
+    font-family: "Gill Sans Custom";
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .contact-flexbox {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 100px;
+    gap: 50px;
+    justify-content: space-between;
+    .sidebar {
+      flex: 1;
+      max-width: 400px;
+      .map {
+        aspect-ratio: 400 / 442;
+        background-image: url("/images/maplocation.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 34px;
+      }
+      p {
+        margin-bottom: 0px;
+        font-family: "Gill Sans Custom";
+        font-weight: 100;
+        font-size: 18px;
+      }
+    }
+    form {
+      flex: 1;
+
+      display: flex;
+      align-items: stretch;
+      justify-content: flex-start;
+      gap: 21px;
+      flex-direction: column;
+
+      input,
+      textarea {
+        padding: 20px;
+        font-family: "Gill Sans Custom";
+        font-size: 16px;
+        border: 0px solid;
+        font-weight: normal;
+        background-color: #f5f5f5;
+      }
+
+      textarea {
+        height: 199px;
+      }
+
+      .btn {
+        margin: 0;
+        padding: none;
+        width: 100%;
+        max-width: 167px;
+        background-color: $site-accent;
+        color: $site-white;
+        height: 60px;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-family: "Gill Sans Custom";
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -852,7 +852,7 @@ footer .wrapper .links i:hover {
   font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
-  letter-spacing: 6px;
+  letter-spacing: 2px;
   text-decoration-thickness: 2px;
   text-underline-offset: 14px;
   margin-bottom: 35px;
@@ -947,6 +947,99 @@ footer .wrapper .links i:hover {
   background-image: url("../images/special-offer-02.jpg");
 }
 
+.contact {
+  max-width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+.contact h1 {
+  font-size: 30px;
+  font-family: "Proxima Nova ScOsf Custom";
+  text-decoration: underline;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 14px;
+  margin-bottom: 35px;
+  margin-top: 60px;
+}
+.contact h2 {
+  font-size: 40px;
+  font-family: "Proxima Nova ScOsf Custom";
+  text-decoration: underline;
+  font-weight: 100;
+  letter-spacing: 4px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 14px;
+  margin-bottom: 35px;
+  margin-top: 100px;
+}
+.contact p {
+  font-family: "Gill Sans Custom";
+  font-size: 16px;
+  font-weight: normal;
+}
+.contact .contact-flexbox {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 100px;
+  gap: 50px;
+  justify-content: space-between;
+}
+.contact .contact-flexbox .sidebar {
+  flex: 1;
+  max-width: 400px;
+}
+.contact .contact-flexbox .sidebar .map {
+  aspect-ratio: 400/442;
+  background-image: url("/images/maplocation.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 34px;
+}
+.contact .contact-flexbox .sidebar p {
+  margin-bottom: 0px;
+  font-family: "Gill Sans Custom";
+  font-weight: 100;
+  font-size: 18px;
+}
+.contact .contact-flexbox form {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 21px;
+  flex-direction: column;
+}
+.contact .contact-flexbox form input,
+.contact .contact-flexbox form textarea {
+  padding: 20px;
+  font-family: "Gill Sans Custom";
+  font-size: 16px;
+  border: 0px solid;
+  font-weight: normal;
+  background-color: #f5f5f5;
+}
+.contact .contact-flexbox form textarea {
+  height: 199px;
+}
+.contact .contact-flexbox form .btn {
+  margin: 0;
+  padding: none;
+  width: 100%;
+  max-width: 167px;
+  background-color: #79addc;
+  color: #ffffff;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Gill Sans Custom";
+  border: none;
+  cursor: pointer;
+}
+
 .specialoffers {
   max-width: 980px;
   margin: 0 auto;
@@ -957,7 +1050,7 @@ footer .wrapper .links i:hover {
   font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
-  letter-spacing: 6px;
+  letter-spacing: 2px;
   text-decoration-thickness: 2px;
   text-underline-offset: 14px;
   margin-bottom: 35px;
@@ -1021,7 +1114,7 @@ footer .wrapper .links i:hover {
   font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   text-decoration-thickness: 2px;
   text-underline-offset: 14px;
   margin-bottom: 23px;
@@ -1032,7 +1125,7 @@ footer .wrapper .links i:hover {
   max-width: none;
   font-size: 20px;
   font-family: "Proxima Nova ScOsf Custom";
-  font-weight: 100;
+  font-weight: 200;
   margin-top: 12px;
   color: #ff7d38;
   margin-bottom: 0;
@@ -1041,6 +1134,7 @@ footer .wrapper .links i:hover {
   max-width: 290px;
   margin-bottom: 0px;
   margin-top: 0px;
+  font-weight: 200;
 }
 .specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content .btn {
   display: flex;
