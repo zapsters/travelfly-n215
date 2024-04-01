@@ -12,7 +12,7 @@
   height: 200px;
 
   h1 {
-    font-family: "Proxima Nova ScOsf";
+    font-family: "Proxima Nova ScOsf Custom";
     color: white;
     letter-spacing: 6px;
     font-weight: 100;
@@ -34,7 +34,7 @@
   position: relative;
 
   h1 {
-    font-family: "Proxima Nova ScOsf";
+    font-family: "Proxima Nova ScOsf Custom";
     color: white;
     letter-spacing: 0px;
     font-weight: 100;
@@ -42,7 +42,7 @@
     font-size: 80px;
   }
   h2 {
-    font-family: "Proxima Nova ScOsf";
+    font-family: "Proxima Nova ScOsf Custom";
     color: white;
     letter-spacing: 0px;
     font-weight: 100;
@@ -169,7 +169,7 @@
   .day-entry {
     margin-bottom: 80px;
     h1 {
-      font-family: "Proxima Nova ScOsf";
+      font-family: "Proxima Nova ScOsf Custom";
       color: black;
       letter-spacing: 6px;
       font-weight: 100;
@@ -181,7 +181,7 @@
     }
     p {
       font-size: 16px;
-      font-family: "Gill Sans", sans-serif;
+      font-family: "Gill Sans Custom", sans-serif;
     }
   }
 }
@@ -192,7 +192,7 @@
   justify-content: space-evenly;
   margin: 80px 0 100px 0;
   a {
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Gill Sans Custom", sans-serif;
     font-size: 15px;
     padding: 11px 22px;
     background-color: $site-accent;

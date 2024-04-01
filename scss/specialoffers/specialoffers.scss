@@ -4,7 +4,7 @@
   height: 100%;
   h1 {
     font-size: 30px;
-    font-family: "Proxima Nova ScOsf";
+    font-family: "Proxima Nova ScOsf Custom";
     text-decoration: underline;
     font-weight: 100;
     letter-spacing: 6px;
@@ -15,7 +15,7 @@
   }
   h2 {
     font-size: 40px;
-    font-family: "Proxima Nova ScOsf";
+    font-family: "Proxima Nova ScOsf Custom";
     text-decoration: underline;
     font-weight: 100;
     letter-spacing: 4px;
@@ -25,7 +25,7 @@
     margin-top: 100px;
   }
   p {
-    font-family: "Gill Sans";
+    font-family: "Gill Sans Custom";
     font-size: 16px;
     font-weight: normal;
   }
@@ -66,7 +66,7 @@
           justify-content: space-between;
           h1 {
             font-size: 30px;
-            font-family: "Proxima Nova ScOsf";
+            font-family: "Proxima Nova ScOsf Custom";
             text-decoration: underline;
             font-weight: 100;
             letter-spacing: 6px;
@@ -79,7 +79,7 @@
             flex: 1;
             max-width: none;
             font-size: 20px;
-            font-family: "Proxima Nova ScOsf";
+            font-family: "Proxima Nova ScOsf Custom";
             font-weight: 100;
             margin-top: 12px;
             color: #ff7d38;
@@ -98,7 +98,7 @@
           justify-content: space-evenly;
 
           a {
-            font-family: "Gill Sans", sans-serif;
+            font-family: "Gill Sans Custom", sans-serif;
             font-size: 15px;
             padding: 11px 22px;
             background-color: $site-accent;

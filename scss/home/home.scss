@@ -21,12 +21,13 @@
       width: 100%;
       h1 {
         font-size: 60px;
-        font-family: "Proxima Nova ScOsf";
-        font-weight: 100;
+        font-family: "Proxima Nova ScOsf Custom";
+        font-weight: 400;
+        font-style: italic;
       }
       h4 {
         font-size: 20px;
-        font-family: "Gill Sans", sans-serif;
+        font-family: "Gill Sans Custom", sans-serif;
         font-style: italic;
         font-weight: 100;
         max-width: 420px;
@@ -37,7 +38,7 @@
         color: $site-white;
         background-color: $site-accent;
         padding: 11px 20px;
-        font-family: "Gill Sans";
+        font-family: "Gill Sans Custom";
         font-size: 15px;
       }
       a:hover {
@@ -71,11 +72,11 @@
         justify-content: center;
         color: white;
         flex-direction: column;
-        font-family: "Proxima Nova ScOsf";
+        font-family: "Proxima Nova ScOsf Custom";
+        font-style: italic;
         position: relative;
         h1 {
-          font-size: 310%;
-          // font-size: 60px;
+          font-size: 60px;
           margin: 0;
           font-weight: 100;
         }
@@ -90,10 +91,11 @@
           padding: 11px 22px;
           background-color: $site-accent;
           border-radius: 23px;
+          font-style: normal;
           text-decoration: none;
           color: white;
           text-transform: uppercase;
-          font-family: "Gill Sans";
+          font-family: "Gill Sans Custom";
         }
         a:hover {
           text-decoration: underline;
@@ -109,7 +111,7 @@
   }
 
   form {
-    font-family: "gill sans";
+    font-family: "Gill Sans Custom";
     width: 90%;
     max-width: $content-width;
     margin: 0 auto;
@@ -120,8 +122,8 @@
       background-color: $site-accent;
       height: 60px;
       color: $site-white;
-      font-size: 15;
-      font-family: "Gill Sans";
+      font-size: 15px;
+      font-family: "Gill Sans Custom";
       border: none;
       cursor: pointer;
       border-radius: 60px;
@@ -130,7 +132,7 @@
     }
     h1 {
       font-size: 60px;
-      font-family: "Proxima Nova ScOsf";
+      font-family: "Proxima Nova ScOsf Custom";
       margin-bottom: 28px;
       font-weight: 100;
     }
@@ -138,7 +140,8 @@
     textarea {
       border: 2px solid $site-accent;
       padding: 15px 18px;
-      font-family: "Gill Sans";
+      font-family: "Gill Sans Custom";
+      font-weight: 100;
       font-size: 18px;
       resize: none;
     }
@@ -147,6 +150,7 @@
       width: 100%;
       word-wrap: break-word;
       word-break: break-all;
+      font-weight: 100;
       height: 192px;
     }
     .senderInfo {
@@ -179,6 +183,7 @@
         }
 
         label {
+          font-weight: 100;
           width: 120px;
           margin: 0;
         }
@@ -212,6 +217,7 @@
 
           label {
             width: 120px;
+            font-weight: 100;
             margin: 0;
           }
           input {

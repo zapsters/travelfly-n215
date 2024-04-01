@@ -10,7 +10,7 @@
   height: 200px;
 }
 .tours-hero h1 {
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   color: white;
   letter-spacing: 6px;
   font-weight: 100;
@@ -29,7 +29,7 @@
   position: relative;
 }
 .tour-page-hero h1 {
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   color: white;
   letter-spacing: 0px;
   font-weight: 100;
@@ -37,7 +37,7 @@
   font-size: 80px;
 }
 .tour-page-hero h2 {
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   color: white;
   letter-spacing: 0px;
   font-weight: 100;
@@ -76,7 +76,7 @@
   justify-content: center;
   color: white;
   flex-direction: column;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   position: relative;
 }
 .travel-cards .card .details h1 {
@@ -97,7 +97,7 @@
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-family: "Gill Sans";
+  font-family: "Gill Sans Custom";
 }
 .travel-cards .card .details a:hover {
   text-decoration: underline;
@@ -279,7 +279,7 @@
   margin-bottom: 80px;
 }
 .tour-schedule .day-entry h1 {
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   color: black;
   letter-spacing: 6px;
   font-weight: 100;
@@ -291,7 +291,7 @@
 }
 .tour-schedule .day-entry p {
   font-size: 16px;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Gill Sans Custom", sans-serif;
 }
 
 .tour-book-btn {
@@ -301,7 +301,7 @@
   margin: 80px 0 100px 0;
 }
 .tour-book-btn a {
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Gill Sans Custom", sans-serif;
   font-size: 15px;
   padding: 11px 22px;
   background-color: #79addc;
@@ -355,6 +355,66 @@ p {
   margin-top: auto;
 }
 
+@font-face {
+  font-family: "Proxima Nova ScOsf Custom";
+  src: url("../fonts/ProximaNovaExtraCondensed.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proxima Nova ScOsf Custom";
+  src: url("../fonts/Proxima-Nova-ExCn-Reg.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gill Sans Custom";
+  src: url("../fonts/gillsans/Gill Sans Light.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gill Sans Custom";
+  src: url("../fonts/gillsans/Gill Sans Light Italic.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gill Sans Custom";
+  src: url("../fonts/gillsans/Gill Sans Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gill Sans Custom";
+  src: url("../fonts/gillsans/Gill Sans Medium Italic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gill Sans Custom";
+  src: url("../fonts/gillsans/Gill Sans Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gill Sans Custom";
+  src: url("../fonts/gillsans/Gill Sans Bold Italic.otf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Gill Sans Custom";
+  src: url("../fonts/gillsans/Gill Sans Heavy.otf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gill Sans Custom";
+  src: url("../fonts/gillsans/Gill Sans Heavy Italic.otf");
+  font-weight: 900;
+  font-style: italic;
+}
 nav {
   height: 90px;
   max-width: 980px;
@@ -373,7 +433,7 @@ nav a {
   text-decoration: none;
   padding: 0 19px;
   border-right: solid 1px #79addc;
-  font-family: "gill sans";
+  font-family: "Gill Sans Custom";
   text-underline-offset: 4px;
 }
 nav a:hover {
@@ -445,12 +505,13 @@ nav .links {
 }
 .home .hero .callout h1 {
   font-size: 60px;
-  font-family: "Proxima Nova ScOsf";
-  font-weight: 100;
+  font-family: "Proxima Nova ScOsf Custom";
+  font-weight: 400;
+  font-style: italic;
 }
 .home .hero .callout h4 {
   font-size: 20px;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Gill Sans Custom", sans-serif;
   font-style: italic;
   font-weight: 100;
   max-width: 420px;
@@ -461,7 +522,7 @@ nav .links {
   color: #ffffff;
   background-color: #79addc;
   padding: 11px 20px;
-  font-family: "Gill Sans";
+  font-family: "Gill Sans Custom";
   font-size: 15px;
 }
 .home .hero .callout a:hover {
@@ -493,11 +554,12 @@ nav .links {
   justify-content: center;
   color: white;
   flex-direction: column;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
+  font-style: italic;
   position: relative;
 }
 .home .travel-cards .card .details h1 {
-  font-size: 310%;
+  font-size: 60px;
   margin: 0;
   font-weight: 100;
 }
@@ -511,10 +573,11 @@ nav .links {
   padding: 11px 22px;
   background-color: #79addc;
   border-radius: 23px;
+  font-style: normal;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-family: "Gill Sans";
+  font-family: "Gill Sans Custom";
 }
 .home .travel-cards .card .details a:hover {
   text-decoration: underline;
@@ -526,7 +589,7 @@ nav .links {
   background-image: url("../images/tour/tour-03.jpg");
 }
 .home form {
-  font-family: "gill sans";
+  font-family: "Gill Sans Custom";
   width: 90%;
   max-width: 980px;
   margin: 0 auto;
@@ -538,8 +601,8 @@ nav .links {
   background-color: #79addc;
   height: 60px;
   color: #ffffff;
-  font-size: 15;
-  font-family: "Gill Sans";
+  font-size: 15px;
+  font-family: "Gill Sans Custom";
   border: none;
   cursor: pointer;
   border-radius: 60px;
@@ -548,7 +611,7 @@ nav .links {
 }
 .home form h1 {
   font-size: 60px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   margin-bottom: 28px;
   font-weight: 100;
 }
@@ -556,7 +619,8 @@ nav .links {
 .home form textarea {
   border: 2px solid #79addc;
   padding: 15px 18px;
-  font-family: "Gill Sans";
+  font-family: "Gill Sans Custom";
+  font-weight: 100;
   font-size: 18px;
   resize: none;
 }
@@ -565,6 +629,7 @@ nav .links {
   width: 100%;
   word-wrap: break-word;
   word-break: break-all;
+  font-weight: 100;
   height: 192px;
 }
 .home form .senderInfo {
@@ -594,6 +659,7 @@ nav .links {
   opacity: 0;
 }
 .home form .check-in-out-details div label {
+  font-weight: 100;
   width: 120px;
   margin: 0;
 }
@@ -627,6 +693,7 @@ nav .links {
 }
 .home form .room-details .flex-label-with-input div label {
   width: 120px;
+  font-weight: 100;
   margin: 0;
 }
 .home form .room-details .flex-label-with-input div input {
@@ -680,7 +747,7 @@ footer .wrapper .logo {
   cursor: pointer;
 }
 footer .wrapper p {
-  font-family: "Gill Sans";
+  font-family: "Gill Sans Custom";
   font-size: 12px;
   font-weight: normal;
   color: #ffffff;
@@ -707,7 +774,7 @@ footer .wrapper .links i:hover {
 }
 .about h1 {
   font-size: 60px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
   letter-spacing: 6px;
@@ -718,7 +785,7 @@ footer .wrapper .links i:hover {
 }
 .about h2 {
   font-size: 40px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
   letter-spacing: 4px;
@@ -728,7 +795,7 @@ footer .wrapper .links i:hover {
   margin-top: 100px;
 }
 .about p {
-  font-family: "Gill Sans";
+  font-family: "Gill Sans Custom";
   font-size: 16px;
   font-weight: normal;
 }
@@ -762,7 +829,7 @@ footer .wrapper .links i:hover {
   flex-direction: column;
 }
 .about .clientQuotes .client-quote-box .client-info .client-description {
-  font-family: "Gill Sans";
+  font-family: "Gill Sans Custom";
   font-size: 16px;
   font-style: italic;
   margin-bottom: 24px;
@@ -770,7 +837,7 @@ footer .wrapper .links i:hover {
 .about .clientQuotes .client-quote-box .client-info .client-name {
   color: #79addc;
   font-size: 20px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   margin: 0;
   margin-left: auto;
 }
@@ -782,7 +849,7 @@ footer .wrapper .links i:hover {
 }
 .blog h1 {
   font-size: 30px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
   letter-spacing: 6px;
@@ -793,7 +860,7 @@ footer .wrapper .links i:hover {
 }
 .blog h2 {
   font-size: 40px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
   letter-spacing: 4px;
@@ -803,7 +870,7 @@ footer .wrapper .links i:hover {
   margin-top: 100px;
 }
 .blog p {
-  font-family: "Gill Sans";
+  font-family: "Gill Sans Custom";
   font-size: 16px;
   font-weight: normal;
 }
@@ -836,7 +903,7 @@ footer .wrapper .links i:hover {
 }
 .blog .blog-showcase .blog-entry .blog-banner h1 {
   font-weight: bold;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans Custom", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
   text-decoration: none;
   font-size: 22px;
@@ -845,7 +912,7 @@ footer .wrapper .links i:hover {
 .blog .blog-showcase .blog-entry .blog-banner h2 {
   text-decoration: none;
   margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans Custom", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 100;
   letter-spacing: 0px;
   font-size: 12px;
@@ -864,7 +931,7 @@ footer .wrapper .links i:hover {
 }
 .blog .blog-showcase .blog-entry .blog-content h3 {
   font-size: 15px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans Custom", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: normal;
   margin-bottom: 11px;
 }
@@ -872,7 +939,7 @@ footer .wrapper .links i:hover {
   color: #79addc;
   max-width: 380px;
   font-size: 13px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans Custom", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: normal;
   margin-bottom: 0;
 }
@@ -887,7 +954,7 @@ footer .wrapper .links i:hover {
 }
 .specialoffers h1 {
   font-size: 30px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
   letter-spacing: 6px;
@@ -898,7 +965,7 @@ footer .wrapper .links i:hover {
 }
 .specialoffers h2 {
   font-size: 40px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
   letter-spacing: 4px;
@@ -908,7 +975,7 @@ footer .wrapper .links i:hover {
   margin-top: 100px;
 }
 .specialoffers p {
-  font-family: "Gill Sans";
+  font-family: "Gill Sans Custom";
   font-size: 16px;
   font-weight: normal;
 }
@@ -951,7 +1018,7 @@ footer .wrapper .links i:hover {
 }
 .specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content .title h1 {
   font-size: 30px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   text-decoration: underline;
   font-weight: 100;
   letter-spacing: 6px;
@@ -964,7 +1031,7 @@ footer .wrapper .links i:hover {
   flex: 1;
   max-width: none;
   font-size: 20px;
-  font-family: "Proxima Nova ScOsf";
+  font-family: "Proxima Nova ScOsf Custom";
   font-weight: 100;
   margin-top: 12px;
   color: #ff7d38;
@@ -981,7 +1048,7 @@ footer .wrapper .links i:hover {
   justify-content: space-evenly;
 }
 .specialoffers .specialoffers-showcase .specialoffer-entry .specialoffer-content .btn a {
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Gill Sans Custom", sans-serif;
   font-size: 15px;
   padding: 11px 22px;
   background-color: #79addc;

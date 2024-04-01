@@ -4,7 +4,7 @@
   height: 100%;
   h1 {
     font-size: 30px;
-    font-family: "Proxima Nova ScOsf";
+    font-family: "Proxima Nova ScOsf Custom";
     text-decoration: underline;
     font-weight: 100;
     letter-spacing: 6px;
@@ -15,7 +15,7 @@
   }
   h2 {
     font-size: 40px;
-    font-family: "Proxima Nova ScOsf";
+    font-family: "Proxima Nova ScOsf Custom";
     text-decoration: underline;
     font-weight: 100;
     letter-spacing: 4px;
@@ -25,7 +25,7 @@
     margin-top: 100px;
   }
   p {
-    font-family: "Gill Sans";
+    font-family: "Gill Sans Custom";
     font-size: 16px;
     font-weight: normal;
   }
@@ -57,8 +57,8 @@
 
         h1 {
           font-weight: bold;
-          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-            sans-serif;
+          font-family: "Gill Sans Custom", "Gill Sans MT", Calibri,
+            "Trebuchet MS", sans-serif;
           margin: 0;
           text-decoration: none;
           font-size: 22px;
@@ -67,8 +67,8 @@
         h2 {
           text-decoration: none;
           margin: 0;
-          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-            sans-serif;
+          font-family: "Gill Sans Custom", "Gill Sans MT", Calibri,
+            "Trebuchet MS", sans-serif;
           font-weight: 100;
           letter-spacing: 0px;
           font-size: 12px;
@@ -87,8 +87,8 @@
         }
         h3 {
           font-size: 15px;
-          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-            sans-serif;
+          font-family: "Gill Sans Custom", "Gill Sans MT", Calibri,
+            "Trebuchet MS", sans-serif;
           font-weight: normal;
           margin-bottom: 11px;
         }
@@ -96,8 +96,8 @@
           color: $site-accent;
           max-width: 380px;
           font-size: 13px;
-          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-            sans-serif;
+          font-family: "Gill Sans Custom", "Gill Sans MT", Calibri,
+            "Trebuchet MS", sans-serif;
           font-weight: normal;
           margin-bottom: 0;
         }

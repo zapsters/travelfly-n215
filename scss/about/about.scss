@@ -3,7 +3,7 @@
   margin: 0 auto;
   h1 {
     font-size: 60px;
-    font-family: "Proxima Nova ScOsf";
+    font-family: "Proxima Nova ScOsf Custom";
     text-decoration: underline;
     font-weight: 100;
     letter-spacing: 6px;
@@ -14,7 +14,7 @@
   }
   h2 {
     font-size: 40px;
-    font-family: "Proxima Nova ScOsf";
+    font-family: "Proxima Nova ScOsf Custom";
     text-decoration: underline;
     font-weight: 100;
     letter-spacing: 4px;
@@ -24,7 +24,7 @@
     margin-top: 100px;
   }
   p {
-    font-family: "Gill Sans";
+    font-family: "Gill Sans Custom";
     font-size: 16px;
     font-weight: normal;
   }
@@ -55,7 +55,7 @@
         justify-content: space-between;
         flex-direction: column;
         .client-description {
-          font-family: "Gill Sans";
+          font-family: "Gill Sans Custom";
           font-size: 16px;
           font-style: italic;
           margin-bottom: 24px;
@@ -63,7 +63,7 @@
         .client-name {
           color: $site-accent;
           font-size: 20px;
-          font-family: "Proxima Nova ScOsf";
+          font-family: "Proxima Nova ScOsf Custom";
           margin: 0;
           margin-left: auto;
         }
