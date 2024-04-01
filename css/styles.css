@@ -1023,6 +1023,7 @@ footer .wrapper .links i:hover {
 }
 .contact .contact-flexbox form textarea {
   height: 199px;
+  resize: vertical;
 }
 .contact .contact-flexbox form .btn {
   margin: 0;
