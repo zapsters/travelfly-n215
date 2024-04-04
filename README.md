@@ -1,4 +1,4 @@
-# n215 Homework 6
+# n215 Homework 7
 
 Recreating an AdobeXD web design called Travel-Fly.
 
@@ -10,6 +10,8 @@ Teach you how to make your site responsive
 Teach you how to deal with images next to text.
 Use media queries
 Use percentages
+
+_and also added a mobile nav bar_
 
 Task
 For this homework assignment, you will be making the special offer, blog, and the contact us page from the Travel-fly prototype Download Travel-fly prototypeand making it responsive.
