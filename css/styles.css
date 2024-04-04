@@ -460,26 +460,55 @@ nav .links {
   height: 42px;
   justify-content: flex-end;
 }
+nav .mobile-links {
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.866);
+  width: 100%;
+  position: absolute;
+  height: initial;
+  align-items: center;
+  overflow: hidden;
+  top: 100%;
+  gap: 10px;
+  opacity: 0;
+  padding: 10px 0;
+}
+nav .mobile-links a {
+  border: none;
+}
+nav i {
+  color: white;
+  position: absolute;
+  right: 0;
+  font-size: 25px;
+  margin-right: 10px;
+  display: none !important;
+  cursor: pointer;
+}
 
 .nav-black {
   position: relative;
   border-bottom: 2px solid black;
 }
-.nav-black a {
+.nav-black .links a {
   color: black;
 }
 .nav-black .logo {
   background-image: url("../images/logo/logo-black.svg");
 }
+.nav-black i {
+  color: black;
+}
 
-@media all and (max-width: 780px) {
-  nav a {
-    padding: 0 4px;
-    border: none;
-    font-size: 13px;
+@media all and (max-width: 700px) {
+  nav .links {
+    display: none;
   }
-  nav .logo {
-    width: 80px;
+  nav .mobile-links {
+    display: flex;
+  }
+  nav i {
+    display: block !important;
   }
 }
 .home .hero {
@@ -705,7 +734,7 @@ nav .links {
   text-align: left;
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 700px) {
   .home .travel-cards {
     flex-direction: column;
     gap: 50px;

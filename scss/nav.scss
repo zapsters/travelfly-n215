@@ -39,33 +39,73 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
   }
+
   .links {
     display: flex;
     align-items: center;
     height: 42px;
     justify-content: flex-end;
   }
+
+  .mobile-links {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.866);
+    width: 100%;
+    position: absolute;
+    height: initial;
+    align-items: center;
+    overflow: hidden;
+    top: 100%;
+    gap: 10px;
+    opacity: 0;
+    padding: 10px 0;
+
+    a {
+      border: none;
+    }
+  }
+
+  i {
+    color: white;
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    margin-right: 10px;
+    display: none !important;
+    cursor: pointer;
+  }
 }
+
 .nav-black {
   position: relative;
   border-bottom: 2px solid black;
-  a {
-    color: black;
+  .links {
+    a {
+      color: black;
+    }
   }
   .logo {
     background-image: url("../images/logo/logo-black.svg");
+  }
+  i {
+    color: black;
   }
 }
 
 @media all and (max-width: $mobile-screen-width) {
   nav {
-    a {
-      padding: 0 4px;
-      border: none;
-      font-size: 13px;
+    .links {
+      display: none;
+    }
+    .mobile-links {
+      display: flex;
     }
     .logo {
-      width: 80px;
+      // width: 80px;
+    }
+
+    i {
+      display: block !important;
     }
   }
 }
