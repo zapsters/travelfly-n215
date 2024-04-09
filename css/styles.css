@@ -470,7 +470,7 @@ nav .mobile-links {
   overflow: hidden;
   top: 100%;
   gap: 10px;
-  display: none;
+  display: none !important;
   padding: 10px 0;
 }
 nav .mobile-links a {
