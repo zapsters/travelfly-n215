@@ -470,7 +470,7 @@ nav .mobile-links {
   overflow: hidden;
   top: 100%;
   gap: 10px;
-  display: none !important;
+  display: block;
   padding: 10px 0;
 }
 nav .mobile-links a {
@@ -482,7 +482,7 @@ nav i {
   right: 0;
   font-size: 25px;
   margin-right: 10px;
-  display: none !important;
+  display: none;
   cursor: pointer;
 }
 
@@ -508,7 +508,12 @@ nav i {
     display: flex;
   }
   nav i {
-    display: block !important;
+    display: block;
+  }
+}
+@media all and (min-width: 700px) {
+  nav i {
+    display: none !important;
   }
 }
 .home .hero {

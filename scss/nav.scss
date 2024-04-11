@@ -57,7 +57,7 @@ nav {
     overflow: hidden;
     top: 100%;
     gap: 10px;
-    display: none !important;
+    display: block;
     padding: 10px 0;
 
     a {
@@ -71,7 +71,7 @@ nav {
     right: 0;
     font-size: 25px;
     margin-right: 10px;
-    display: none !important;
+    display: none;
     cursor: pointer;
   }
 }
@@ -105,7 +105,15 @@ nav {
     }
 
     i {
-      display: block !important;
+      display: block;
+    }
+  }
+}
+
+@media all and (min-width: $mobile-screen-width) {
+  nav {
+    i {
+      display: none !important;
     }
   }
 }
