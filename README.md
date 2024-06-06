@@ -2,7 +2,7 @@
 
 Recreating an AdobeXD web design called Travel-Fly.
 
-https://in-info-web4.informatics.iupui.edu/~erballin/homework-seven/
+https://zapsters.github.io/travelfly-n215/
 
 Purpose: This homework assignment will:
 
