@@ -1,4 +1,4 @@
-# n215 Homework 7
+# n215 Assignment
 
 Recreating an AdobeXD web design called Travel-Fly.
 
