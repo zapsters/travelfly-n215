@@ -2,9 +2,11 @@
 
 Recreating an AdobeXD web design called Travel-Fly.
 
+## LINK
 https://zapsters.github.io/travelfly-n215/
 
-Purpose: This homework assignment will:
+## Purpose
+This homework assignment will:
 
 Teach you how to make your site responsive
 Teach you how to deal with images next to text.
@@ -13,7 +15,7 @@ Use percentages
 
 _and also added a mobile nav bar_
 
-Task
+## Task
 For this homework assignment, you will be making the special offer, blog, and the contact us page from the Travel-fly prototype Download Travel-fly prototypeand making it responsive.
 
 You must create a project named homework-seven.
