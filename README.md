@@ -2,7 +2,7 @@
 
 Recreating an AdobeXD web design called Travel-Fly.
 
-## LINK
+## Link
 https://zapsters.github.io/travelfly-n215/
 
 ## Purpose
